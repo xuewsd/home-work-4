@@ -1,0 +1,233 @@
+/* Помощь */
+
+/* * { 
+    color: blueviolet;
+} */
+
+/* a {
+    color: aquamarine;
+} */
+
+/* .page-header {
+    background-color: black;
+} */
+
+/* .page-header a {
+    background-color: black;
+} */
+/* 
+font-sice: (px, en, ren) */
+
+
+
+
+ :root {
+    primary-color color: #212121;
+    text-color color: #757575;
+    secondary-color color: #FFFFFF;
+    secondary-link-color color: rgba(255, 255, 255, 0.6);
+    accent-color color: #2196F3;   
+    background-floor: #2F303A;
+}
+
+body {
+    color: #757575;
+    background-color: #FFFFFF;
+    font-family: roboto, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+ /* шапка сайта */
+ul {
+    list-style: none;
+}
+
+/* Header */
+
+.logo {
+    color: #000000;
+
+    font-family: Raleway, sans-serif;
+    font-style: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em; 
+}
+
+.logo-span,
+.nav-link:hover,
+.nav-link:focus,
+.list-item:hover,
+.list-item:focus,
+.nav-link-too:hover,
+.nav-link-too:focus,
+.link-list-too:hover,
+.link-list-too:focus,
+.link-work-too:hover,
+.link-work-too:focus
+ {
+    color: #2196F3;
+}
+.nav-link {
+    color: #212121;
+
+font-family: Roboto, sans-serif;
+font-style: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.list-item {
+    color: #757575;
+    font-family: Roboto, sans-serif;
+font-style: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em
+}
+
+.hero-section {
+    background-color:  #2F303A;
+}
+.hero-title {
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+font-style: 900;
+font-size: 44px;
+line-height: 1.4;
+text-align: center;
+letter-spacing: 0.06em;
+}
+.peculiarities {
+    color: #212121;
+    font-family: Roboto, sans-serif;
+font-style: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.peculiarities-title {
+    color: #757575;
+font-family: Roboto, sans-serif;
+font-style: 700;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+.do {
+    color: #212121;
+font-family: Roboto, sans-serif;
+font-style: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.team {
+    color: #212121;
+font-family: Roboto, sans-serif;
+font-style: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em
+}
+.team-name {
+    color: #212121;
+font-family: Roboto, sans-serif;
+font-style: 500;
+font-size: 16px;
+line-height: 1.2;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em
+}
+.team-title {
+    color: #757575;
+    font-family: Robotj, sans-serif;
+font-style: 400;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.studio-footer {
+     color:#FFFFFF;
+ font-family: Raleway, sans-serif;
+font-style: 700;
+ font-size: 26px;
+ line-height: 1.2;
+letter-spacing: 0.03em;
+}
+.footer {
+    background-color:#2F303A;
+}
+.web-footer {
+    color: #2196F3;
+}
+.nomb-fot {
+    color: #FFFFFF;
+font-family: Roboto, sans-serif;
+font-style: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+.info {
+color: rgba(255, 255, 255, 0.6);
+font-family: Roboto, sans-serif;
+font-style: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+/* Вторая страница */
+
+/* Хед  */
+
+.logo-too {
+    color: #000000;
+
+font-family: Raleway, sans-serif;
+font-style: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+.logo-too-span {
+    color: #2196F3;
+}
+.list-too {
+    color: #212121;
+}
+.link-list-too {
+    color: #757575;
+}
+
+/* ссылки на роботы (возможно батон) */
+
+.link-work {
+    color: #212121;
+}
+.nazv-pr {
+    color: #212121;
+}
+.nazv-pr-too {
+    color: #757575;
+}
+.port-footer {
+    color:#FFFFFF;
+}
+.p-f {
+    background-color:#2F303A;
+}
+.portf-span {
+    color: #2196F3;
+}
+.com-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
